@@ -31,7 +31,7 @@ export default function CodingResumeWebsite() {
     { name: 'HTML/CSS', level: '60%', width: '60%' },
     { name: 'PHP', level: '50%', width: '50%' },
     { name: 'SQL', level: '50%', width: '50%' },
-    { name: 'C/C++', level: '50%', width: '50%' }
+    { name: 'C/C++/C#', level: '50%', width: '50%' }
   ]
 
   //основная структура сайта
@@ -143,7 +143,14 @@ export default function CodingResumeWebsite() {
                 <span className="text-green-500">
                   email:
                 </span>{' '}
-                kata.ryabsheva@gmail.com
+                kata.ryabysheva@gmail.com
+              </p>
+
+              <p>
+                <span className="text-green-500">
+                  telefonnummer:
+                </span>{' '}
+                +4915560690621
               </p>
 
               <p>
@@ -235,7 +242,7 @@ export default function CodingResumeWebsite() {
             <div className="min-h-[360px] border border-green-500/20 bg-black/30 p-6 rounded-sm shadow-[0_0_20px_rgba(0,255,0,0.08)]">
 
               <p className="text-green-500 mb-4">
-                system@portfolio:~$ cat about.txt
+                system@portfolio:~$ about.txt
               </p>
 
               <p className="leading-9 text-lg text-green-100 whitespace-pre-wrap">
@@ -257,6 +264,26 @@ export default function CodingResumeWebsite() {
             </p>
 
             <div className="space-y-8">
+
+              <div className="border-l-2 border-green-500 pl-5">
+
+                <p className="text-green-500 mb-2">
+                  02/2023 — 12/2024
+                </p>
+
+                <h3 className="text-white text-xl mb-2">
+                  Deutsch Sprachkurse
+                </h3>
+
+                <p className="text-green-100 leading-7">
+                  VHS Kamen-Bönen
+                </p>
+
+                <p className="text-green-400 mt-3 text-sm">
+                  Sprachlevel A1, A2, B1 und B2
+                </p>
+
+              </div>
 
               <div className="border-l-2 border-green-500 pl-5">
 
@@ -291,7 +318,7 @@ export default function CodingResumeWebsite() {
                 </h3>
 
                 <p className="text-green-100 leading-7">
-                  Berufskolleg von Donbass,
+                  Berufskolleg von Donbass Staatliche Ingenieurakademie,
                   Kramatorsk, Ukraine
                 </p>
 
@@ -305,22 +332,36 @@ export default function CodingResumeWebsite() {
               <div className="border-l-2 border-green-500 pl-5">
 
                 <p className="text-green-500 mb-2">
-                  2023 — 2024
+                  09/2015 ¬– 06/2017
                 </p>
 
                 <h3 className="text-white text-xl mb-2">
-                  Deutsch Sprachkurse
+                  Abitur
                 </h3>
 
                 <p className="text-green-100 leading-7">
-                  VHS Kamen-Bönen
+                  Berufskolleg von Donbass Staatliche Ingenieurakademie, 
+                  Kramatorsk, Ukraine
+                </p>
+                
+              </div>
+
+              <div className="border-l-2 border-green-500 pl-5">
+
+                <p className="text-green-500 mb-2">
+                  09/2006 – 05/2015
                 </p>
 
-                <p className="text-green-400 mt-3 text-sm">
-                  Sprachlevel A1, A2, B1 und B2
+                <h3 className="text-white text-xl mb-2">
+                  Basisschule
+                </h3>
+
+                <p className="text-green-100 leading-7">
+                  Basisschule Nr. 1, Kramatorsk, Ukraine
                 </p>
 
               </div>
+
 
             </div>
 
